@@ -14,6 +14,14 @@ export default {
             type: 'text'
         },
         {
+            name: 'isFeatured',
+            title: 'Is Featured',
+            type: 'boolean',
+            options: {
+                layout: 'checkbox',
+            }
+        },
+        {
             name: 'slug',
             title: 'Slug',
             type: 'slug',
@@ -86,5 +94,8 @@ export default {
                 }
             }
         }
-    ]
+    ],
+    initialValue: {
+        isFeatured: false
+    },
 }
