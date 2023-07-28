@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col mx-48 space-y-4">
         <div v-for="blog in blogs">
-            <BlogCard :blog="blog" v-if="blog.isFeatured" />
+            <BlogCard :blog="blog" />
         </div>
     </div>
 </template>
